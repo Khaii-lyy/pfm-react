@@ -1,0 +1,200 @@
+.home {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    padding: 80px 20px;
+    position: relative;
+    min-height: 100vh;
+    background-image: url('https://images.pexels.com/photos/934062/pexels-photo-934062.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .home-header {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .home-header h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+  
+  .home-header p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.6;
+  }
+  
+  .home-section {
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: background-color 0.3s ease;
+    border-bottom: 3px solid #005a8e;
+  }
+  
+  .home-section h3 {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .home-section p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  .training-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 80px 20px;
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+  
+  .training-text {
+    flex: 1;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .training-text h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  
+  .training-text p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+  
+  .training-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .training-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-section {
+    font-family: 'Arial', sans-serif;
+    padding: 80px 20px;
+    text-align: center;
+    min-height: 100vh;
+    color: white;
+    background-image: url('https://images.pexels.com/photos/934062/pexels-photo-934062.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .login-section h3 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  form {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #004080;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #333;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  form input:focus {
+    border-color: #005a8e;
+    box-shadow: 0 0 10px rgba(0, 90, 142, 0.5);
+    outline: none;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #005a8e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  form button:hover {
+    background-color: #003366;
+    transform: translateY(-3px);
+  }
+  
+  form button:active {
+    transform: translateY(1px);
+  }
+  
+  .error {
+    color: #e63946;
+    font-size: 0.9rem;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  @media (max-width: 768px) {
+    .home-header h2 {
+      font-size: 2.4rem;
+    }
+  
+    .home-header p {
+      font-size: 1rem;
+    }
+  
+    .training-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .training-img {
+      width: 90%;
+      margin-top: 20px;
+    }
+  
+    form {
+      padding: 30px;
+    }
+  
+    form input, form button {
+      padding: 12px;
+    }
+  }
+  

@@ -1,0 +1,101 @@
+.login-section {
+  font-family: 'Arial', sans-serif;
+  padding: 80px 20px;
+  text-align: center;
+  min-height: 100vh;
+  color: white;
+  position: relative;
+  background-image: url('https://images.pexels.com/photos/934062/pexels-photo-934062.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  background-color: rgba(0, 0, 0, 0.7); /* Fallback color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.login-section h3 {
+  font-size: 48px;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 100%;
+}
+
+form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #004080;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #333;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+form input:focus {
+  border-color: #005a8e;
+  box-shadow: 0 0 10px rgba(0, 90, 142, 0.5);
+  outline: none;
+}
+
+form button {
+  width: 100%;
+  padding: 15px;
+  background-color: #005a8e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+form button:hover {
+  background-color: #003366;
+  transform: translateY(-3px);
+}
+
+form button:active {
+  transform: translateY(1px);
+}
+
+.error {
+  color: #e63946;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.login-section:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 768px) {
+  .login-section h3 {
+      font-size: 36px;
+  }
+
+  form {
+      padding: 30px;
+  }
+
+  form input, form button {
+      padding: 12px;
+  }
+}

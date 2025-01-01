@@ -1,0 +1,77 @@
+.teacher-dashboard {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-header h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.dashboard-header p {
+  font-size: 16px;
+  color: #666;
+}
+
+.dashboard-section {
+  margin-bottom: 20px;
+}
+
+.dashboard-section h3 {
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.dashboard-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dashboard-section ul li {
+  font-size: 16px;
+  color: #555;
+  background-color: #fff;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+.dashboard-section table th,
+.dashboard-section table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.dashboard-section table th {
+  background-color: #f4f4f4;
+  color: #333;
+  font-weight: bold;
+}
+
+.dashboard-section table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.dashboard-section table tbody tr:hover {
+  background-color: #f1f1f1;
+}

@@ -1,0 +1,85 @@
+.about-section {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #f4f4f9;
+}
+
+.about-section h2 {
+  font-size: 2.4rem;
+  color: #222;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+.about-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 20px 0;
+}
+
+.card {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #222;
+  font-weight: 600;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.card-info span {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.card-info span:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.card-info span:first-child {
+  background-color: #28a745;
+}
+
+.card-info span:last-child {
+  background-color: #ff9800;
+}

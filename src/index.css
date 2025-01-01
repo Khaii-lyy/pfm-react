@@ -1,0 +1,53 @@
+.home {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  padding: 40px 20px;
+}
+
+.home-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.home-content {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.home-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.scroll-links {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.scroll-links a {
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #005a8e;
+}
+
+.scroll-links a:hover {
+  color: #ffcc00;
+}
+
+.about-section, .login-section {
+  height: 100vh;
+  padding: 50px;
+  text-align: center;
+}
+
+.about-section {
+  background-color: #e1f5fe;
+}
+
+.login-section {
+  background-color: #ffeb3b;
+}
